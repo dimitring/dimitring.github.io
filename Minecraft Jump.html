@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)file:///C:/Users/user/Desktop/dimitring.github.io/codepen_YPgLrg%20(1)/index.html -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  dimitri</title>
+
+    <link rel="stylesheet" href="file:///C:/Users/user/Desktop/dimitring.github.io/codepen_YPgLrg%20(1)/css/style.css">
+
+</head>
+
+<body>
+
+  
+
+	<title>Iron Man Jump</title>
+
+
+	<div class="container">
+		<canvas id="canvas" width="422" height="552">
+			Aww, your browser doesn't support HTML5!
+		</canvas>
+
+		<div id="mainMenu" style="z-index: -1;">
+			<h2>Minecraft Jump</h2>
+			<h3>using HTML5,</h3>
+			<h3>...by <a href="http://twitter.com/nickeyk/" target="_blank">Nickey Khem</a></h3>
+
+			<p class="info">
+				use
+				<span class="key left">←</span>
+				<span class="key right">→</span>
+				to move and space to (re) start...
+			</p>
+			<a class="button" href="javascript:init()">Play</a>
+		</div>
+
+		<div id="gameOverMenu" style="z-index: 1; visibility: visible;">
+			<h1>Get Wrecked!</h1>
+			<h3 id="go_score">You scored 66 points!</h3>
+
+			<a class="button" href="javascript:reset()">Restart</a>
+			<a id="tweetBtn" target="_blank" class="button tweet" href="http://twitter.com/share?url=http://is.gd/PnFFzu&text=I%20just%20scored%2066%20points%20in%20the%20HTML5%20Doodle%20Jump%20game!&count=horiztonal&via=cssdeck&related=solitarydesigns">Tweet score</a>
+
+			<a id="fbBtn" target="_blank" class="button fb" href="http://facebook.com/sharer.php?s=100&p[url]=http://cssdeck.com/labs/html5-doodle-jump/8&p[title]=I%20just%20scored%2066%20points%20in%20the%20HTML5%20Doodle%20Jump%20game!&p[summary]=Can%20you%20beat%20me%20in%20this%20awesome%20recreation%20of%20Doodle%20Jump%20created%20in%20HTML5?">Post on FB</a>
+		</div>
+		http://i58.tinypic.com/17pytg.png
+
+		<!-- Preloading image ;) -->
+		<img id="sprite" src="./Minecraft Jump_files/gamestuff.png">
+
+		<div id="scoreBoard" style="z-index: -1;">
+			<p id="score">66</p>
+		</div>
+
+	</div>
+
+
+
+  <script src="./Minecraft Jump_files/index.js"></script>
+
+
+
+</body></html>
